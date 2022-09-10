@@ -1,29 +1,12 @@
-function App() {
+import Navbar from "./components/Navbar";
+import ItemListContainer from "./components/ItemListContainer";
+
+const App = () => {
   return (
-          <nav class="navbar navbar-expand-lg bg-info">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">Gasti Shop</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Categoria 1</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="#">Categoria 2</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="#">Categoria 3</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="#">Categoria 4</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
+    <>
+      <Navbar/>
+      <ItemListContainer/>
+    </>
   );
 }
 
