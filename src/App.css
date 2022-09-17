@@ -37,3 +37,27 @@
   }
 }
 
+h1 {
+  align-items: center;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  font-weight: 400;
+}
+
+h2 {
+  align-items: center;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  font-weight: 400; 
+}
+
+h3 {
+  align-items: center;
+  font-size: 1rem;
+  line-height: 2rem;
+  font-weight: 400; 
+}
+
+p {
+  align-items: center;
+}
