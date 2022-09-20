@@ -2,6 +2,7 @@ const productos = [
     {
         
         id: 1,
+        categoryId: 1,
         nombre: "Teclado A",
         precio: "$5000",
         detail: "Tipo de Teclado: Standard. Tipo de Conexión: Con Cable. Formato de Teclas: Standard.",
@@ -9,6 +10,7 @@ const productos = [
     },    
     {
         id: 2,
+        categoryId: 2,
         nombre: "Teclado B",
         precio: "$6000",
         detail: "Tipo de Teclado: Standard. Tipo de Conexión: Con Cable. Formato de Teclas: Standard.",
@@ -16,6 +18,7 @@ const productos = [
     },
     {
         id: 3,
+        categoryId: 3,
         nombre: "Teclado C",
         precio: "$7000",
         detail: "Tipo de Teclado: Standard. Tipo de Conexión: Con Cable. Formato de Teclas: Standard.",
@@ -23,6 +26,7 @@ const productos = [
     },
     {
         id: 4,
+        categoryId: 3,
         nombre: "Teclado D",
         precio: "$8000",
         detail: "Ocho teclas de acceso directo para funciones multimedia y de internet.",
@@ -30,6 +34,7 @@ const productos = [
     },
     {
         id: 5,
+        categoryId: 5,
         nombre: "Teclado E",
         precio: "$5000",
         detail: "Tipo de Teclado: Multimedia • Diseño del Teclado: Estándar",
@@ -37,6 +42,7 @@ const productos = [
     },
     {
         id: 6,
+        categoryId: 6,
         nombre: "Teclado F",
         precio: "$6000",
         detail: "Tipo de Teclado: Multimedia - Diseño del Teclado: Slim - Interfaz:",
@@ -44,6 +50,7 @@ const productos = [
     },
     {
         id: 7,
+        categoryId: 2,
         nombre: "Teclado G",
         precio: "$7000",
         detail: "Puedes personalizar cualquiera de las 12 teclas de función para iniciar aplicaciones",
@@ -51,6 +58,7 @@ const productos = [
     },
     {
         id: 8,
+        categoryId: 2,
         nombre: "Teclado H",
         precio: "$8000",
         detail: "Modelo: KB-90 - Origen: CHINA - Cantidad de botones: 107 ",
