@@ -23,7 +23,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div class="justify-content-right" >
-          <FaShoppingCart/>
+          <Link to="/Cart"><FaShoppingCart/></Link>
         </div>
       </div>
     </nav>
