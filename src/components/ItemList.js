@@ -1,10 +1,10 @@
 import React from 'react'
 import Item from './Item.js';
 
-function ItemList ({data}){
+function ItemList ({items}){
     return (
        <div id="itemList">
-       {data.map(product=>(< Item key= {product.id}
+       {items.map(product=>(< Item key= {product.id}
         id={product.id}
         nombre={product.nombre}
         img={product.img}
