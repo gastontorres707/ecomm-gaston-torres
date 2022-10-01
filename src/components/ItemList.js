@@ -9,7 +9,8 @@ function ItemList ({items}){
         nombre={product.nombre}
         img={product.img}
           detail={product.detail}
-          precio={product.precio}/>
+          precio={product.precio}
+          stock={product.stock}/>
 ))}
 </div>
     );

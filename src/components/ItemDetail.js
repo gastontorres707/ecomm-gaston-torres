@@ -22,6 +22,7 @@ function ItemDetail({product}){
         <h3 className="detail-nombre">{product.nombre}</h3>
         <p className="detail-text">Descripción:{product.detail}</p>
         <p className="detail-text">Precio: ${product.precio}</p>
+        <p className="detail-text">Stock: {product.stock}</p>
         < div className="count">
         { countItem===0
         ? <ItemCount initial={countItem} stock={product.stock} onAdd={onAdd}></ItemCount>
