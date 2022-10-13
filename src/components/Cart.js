@@ -64,7 +64,7 @@ await updateDoc(itemRef, {
         <td className="detail-text">Precio: ${product.precio}</td>
         <td><span id="quantity">Cantidad: {product.quantity}</span></td> 
         <td><span id="quantity">Subtotal: ${product.quantity*product.precio}</span></td> 
-        <button onClick={()=>ctx.removeItem(product.id)}>Eliminar producto</button></tr> </div>)
+        <button type="button" className="btn btn-info btn-lg" onClick={()=>ctx.removeItem(product.id)}>Eliminar producto</button></tr> </div>)
         }
         </table>
         
