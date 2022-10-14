@@ -1,6 +1,6 @@
 # Titulo 
 
-Tienda Virtual Techno-Shop
+Tienda Virtual Tech-Shop
 
 ![img](https://i.ibb.co/f04kT3D/tech-shop.jpg)
 
